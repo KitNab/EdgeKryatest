@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeKryatest
+  gitServerName: KitTest
+  gitUrl: https://github.com/KitNab/EdgeKryatest
+  gitUsername: KitNab
+  gitToken: edge.scaffolding.EdgeKryatest.KitTest.gitToken
+  gitBranch: main
