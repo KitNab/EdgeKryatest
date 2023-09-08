@@ -65,13 +65,12 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">krya</value>
-    <value name="createdDate">1694176694509</value>
-    <value name="lastModifiedDate">1694176694509</value>
+    <value name="lastModifiedBy">krya</value>
+    <value name="lastModifiedDate">1694177085686</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">default</value>
-      <null name="group"/>
-      <value name="name">Default (Cloud)</value>
+      <value name="id">0534d079ffc44d5d83fa40ca95e8cc46</value>
+      <value name="group">default</value>
+      <value name="name">KryaEdge</value>
     </record>
     <value name="displayName">testflow</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -93,13 +92,32 @@
       <record name="/0/0" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
+        <number name="nodeIndex" type="Long">0</number>
       </record>
       <null name="/0/0/0"/>
       <record name="/0/1" javaclass="com.wm.util.Values">
         <value name="name">ELSE</value>
         <value name="itemType">CONTROLS</value>
+        <number name="nodeIndex" type="Long">0</number>
       </record>
-      <null name="/0/1/0"/>
+      <record name="/0/1/0" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <value name="transformerSupport">false</value>
+        </record>
+        <number name="ui_step_index" type="Long">4</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+      </record>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>

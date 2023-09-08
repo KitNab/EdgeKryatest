@@ -1,6 +1,11 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.kryatest.integrations:testflow
+  packages:
+  - name: EdgeKryatest
+    version: "1.0"
 packages:
 - name: EdgeKryatest
   gitServerName: KitTest
