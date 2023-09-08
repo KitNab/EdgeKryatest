@@ -6,6 +6,10 @@ services:
   packages:
   - name: EdgeKryatest
     version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.473
 packages:
 - name: EdgeKryatest
   gitServerName: KitTest
