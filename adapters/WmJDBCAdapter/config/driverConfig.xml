@@ -6,5 +6,9 @@
             <name>test3</name>
             <path>drivers/MySQL/test3</path>
         </driver>
+        <driver inUse="false" exists="true">
+            <name>MySQL</name>
+            <path>drivers/MySQL/MySQL</path>
+        </driver>
     </database>
 </driverDetails>
