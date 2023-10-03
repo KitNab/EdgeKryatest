@@ -14,5 +14,9 @@
             <name>test6</name>
             <path>drivers/MySQL/test6</path>
         </driver>
+        <driver inUse="false" exists="true">
+            <name>mysql</name>
+            <path>drivers/MySQL/mysql</path>
+        </driver>
     </database>
 </driverDetails>

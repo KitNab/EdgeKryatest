@@ -67,50 +67,98 @@ services:
     properties:
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.heartBeatInterval
       value: "0"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.keyStore
-      value: ""
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.serverName
       value: 127.0.0.1
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.expireTimeout
-      value: "1000"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.password
-      value: "{AES}/XOf2lvgTyXTDeWAa0iT2g=="
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.startupBackoffSecs
       value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.password
+      value: "{AES}/XOf2lvgTyXTDeWAa0iT2g=="
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.user
+      value: root
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.driverType
+      value: MySQL
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.networkProtocol
+      value: TCP
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.datasourceClass
+      value: com.mysql.cj.jdbc.MysqlDataSource
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.databaseName
+      value: TestDB
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.portNumber
+      value: "32000"
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.dbType
       value: MySQL
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionEnabled
       value: "false"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.networkProtocol
-      value: TCP
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.poolable
       value: "false"
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.transactionType
       value: NO_TRANSACTION
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.poolIncrementSize
       value: "1"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.startupRetryCount
-      value: "0"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.datasourceClass
-      value: com.mysql.cj.jdbc.MysqlDataSource
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.trustStore
       value: ""
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.user
-      value: root
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.maximumPoolSize
-      value: "10"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.databaseName
-      value: TestDB
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.minimumPoolSize
-      value: "0"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.otherProperties
-      value: loginTimeout=60;
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.blockingTimeout
       value: "1000"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.portNumber
-      value: "32000"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.driverType
+  - name: edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3
+    properties:
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.databaseName
+      value: TestDB
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.user
+      value: root
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.startupBackoffSecs
+      value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.driverType
+      value: test6
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionEnabled
+      value: "false"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.trustStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.networkProtocol
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.transactionType
+      value: NO_TRANSACTION
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.serverName
+      value: localhost
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.poolIncrementSize
+      value: "1"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.poolable
+      value: "false"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.password
+      value: "{AES}/XOf2lvgTyXTDeWAa0iT2g=="
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.datasourceClass
+      value: com.mysql.cj.jdbc.MysqlDataSource
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.portNumber
+      value: "1433"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.dbType
       value: MySQL
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.blockingTimeout
+      value: "1000"
 - serviceName: edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
   packages:
   - name: EdgeKryatest
@@ -168,51 +216,248 @@ services:
     properties:
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.heartBeatInterval
       value: "0"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.keyStore
-      value: ""
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.serverName
       value: 127.0.0.1
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.expireTimeout
-      value: "1000"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.password
-      value: "{AES}/XOf2lvgTyXTDeWAa0iT2g=="
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.startupBackoffSecs
       value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.password
+      value: "{AES}/XOf2lvgTyXTDeWAa0iT2g=="
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.user
+      value: root
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.driverType
+      value: MySQL
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.networkProtocol
+      value: TCP
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.datasourceClass
+      value: com.mysql.cj.jdbc.MysqlDataSource
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.databaseName
+      value: TestDB
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.portNumber
+      value: "32000"
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.dbType
       value: MySQL
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionEnabled
       value: "false"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.networkProtocol
-      value: TCP
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.poolable
       value: "false"
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.transactionType
       value: NO_TRANSACTION
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.poolIncrementSize
       value: "1"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.startupRetryCount
-      value: "0"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.datasourceClass
-      value: com.mysql.cj.jdbc.MysqlDataSource
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.trustStore
       value: ""
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.user
-      value: root
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.maximumPoolSize
-      value: "10"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.databaseName
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.blockingTimeout
+      value: "1000"
+  - name: edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3
+    properties:
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.databaseName
       value: TestDB
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.user
+      value: root
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.startupBackoffSecs
+      value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.driverType
+      value: test6
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionEnabled
+      value: "false"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.trustStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.networkProtocol
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.transactionType
+      value: NO_TRANSACTION
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.serverName
+      value: localhost
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.poolIncrementSize
+      value: "1"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.poolable
+      value: "false"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.password
+      value: "{AES}/XOf2lvgTyXTDeWAa0iT2g=="
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.datasourceClass
+      value: com.mysql.cj.jdbc.MysqlDataSource
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.portNumber
+      value: "1433"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.dbType
+      value: MySQL
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.blockingTimeout
+      value: "1000"
+- serviceName: edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2
+  packages:
+  - name: EdgeKryatest
+    version: "1.0"
+  configurations:
+  - name: edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1
+    properties:
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.user
+      value: root
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolIncrementSize
+      value: "1"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.driverType
+      value: test3
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionEnabled
+      value: "false"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.trustStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.serverName
+      value: localhost
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.databaseName
+      value: TestDB
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.transactionType
+      value: NO_TRANSACTION
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.poolable
+      value: "false"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupBackoffSecs
+      value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.portNumber
+      value: "3306"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.networkProtocol
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionManagerSettings.blockingTimeout
+      value: "1000"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.password
+      value: "{AES}/XOf2lvgTyXTDeWAa0iT2g=="
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.datasourceClass
+      value: com.mysql.cj.jdbc.MysqlDataSource
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.dbType
+      value: MySQL
+  - name: edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2
+    properties:
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.serverName
+      value: 127.0.0.1
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.startupBackoffSecs
+      value: "10"
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.minimumPoolSize
       value: "0"
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.otherProperties
       value: loginTimeout=60;
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.blockingTimeout
-      value: "1000"
-    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.portNumber
-      value: "32000"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.password
+      value: "{AES}/XOf2lvgTyXTDeWAa0iT2g=="
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.user
+      value: root
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.driverType
       value: MySQL
-- serviceName: edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.networkProtocol
+      value: TCP
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.datasourceClass
+      value: com.mysql.cj.jdbc.MysqlDataSource
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.databaseName
+      value: TestDB
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.portNumber
+      value: "32000"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.dbType
+      value: MySQL
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionEnabled
+      value: "false"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.poolable
+      value: "false"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.transactionType
+      value: NO_TRANSACTION
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.poolIncrementSize
+      value: "1"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.trustStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionManagerSettings.blockingTimeout
+      value: "1000"
+  - name: edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3
+    properties:
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.databaseName
+      value: TestDB
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.user
+      value: root
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.startupBackoffSecs
+      value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.driverType
+      value: test6
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionEnabled
+      value: "false"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.trustStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.networkProtocol
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.transactionType
+      value: NO_TRANSACTION
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.serverName
+      value: localhost
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.poolIncrementSize
+      value: "1"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.poolable
+      value: "false"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.password
+      value: "{AES}/XOf2lvgTyXTDeWAa0iT2g=="
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.datasourceClass
+      value: com.mysql.cj.jdbc.MysqlDataSource
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.portNumber
+      value: "1433"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.dbType
+      value: MySQL
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.blockingTimeout
+      value: "1000"
+- serviceName: edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_3
   packages:
   - name: EdgeKryatest
     version: "1.0"
@@ -313,6 +558,54 @@ services:
       value: "32000"
     - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_2.connectionSettings.driverType
       value: MySQL
+  - name: edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3
+    properties:
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.databaseName
+      value: TestDB
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.user
+      value: root
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.startupBackoffSecs
+      value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.driverType
+      value: test6
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionEnabled
+      value: "false"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.trustStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.networkProtocol
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.transactionType
+      value: NO_TRANSACTION
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.serverName
+      value: localhost
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.poolIncrementSize
+      value: "1"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.poolable
+      value: "false"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.password
+      value: "{AES}/XOf2lvgTyXTDeWAa0iT2g=="
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.datasourceClass
+      value: com.mysql.cj.jdbc.MysqlDataSource
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.portNumber
+      value: "1433"
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.dbType
+      value: MySQL
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeKryatest.edge.kryatest.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_3.connectionManagerSettings.blockingTimeout
+      value: "1000"
 packages:
 - name: EdgeKryatest
   gitServerName: KitTest
