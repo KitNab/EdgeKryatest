@@ -26,5 +26,9 @@
             <name>mysqljarfiles</name>
             <path>drivers/MySQL/mysqljarfiles</path>
         </driver>
+        <driver inUse="false" exists="true">
+            <name>jarbko</name>
+            <path>drivers/MySQL/jarbko</path>
+        </driver>
     </database>
 </driverDetails>
