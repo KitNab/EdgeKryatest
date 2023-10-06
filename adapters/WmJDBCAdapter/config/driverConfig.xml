@@ -34,5 +34,9 @@
             <name>Dbtest</name>
             <path>drivers/MySQL/Dbtest</path>
         </driver>
+        <driver inUse="false" exists="true">
+            <name>DBtest</name>
+            <path>drivers/MySQL/DBtest</path>
+        </driver>
     </database>
 </driverDetails>
